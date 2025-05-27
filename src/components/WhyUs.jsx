@@ -26,7 +26,7 @@ const WhyUs = () => {
   ];
 
   return (
-    <section className="bg-gray-100 py-20 px-6 md:px-20" id="why-us">
+    <section className="bg-gray-50 py-20 px-6 md:px-20" id="why-us">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-blue-700 mb-10">Why Learn With Us?</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">

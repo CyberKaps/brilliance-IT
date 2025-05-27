@@ -31,7 +31,7 @@ export function ExpandableCardDemo() {
 
   return (
     <>
-    <div className="bg-gray-100">    
+    <div className="bg-gray-50">    
          <AnimatePresence>
         {active && typeof active === "object" && (
           <motion.div
@@ -129,7 +129,7 @@ export function ExpandableCardDemo() {
             layoutId={`card-${card.title}-${id}`}
             key={card.title}
             onClick={() => setActive(card)}
-            className="p-4 flex flex-col  hover:bg-[#070F2B] course-card rounded-xl cursor-pointer">
+            className="p-4 flex flex-col  hover:bg-[#070F2B]/70 course-card rounded-xl cursor-pointer">
             <div className="flex gap-4 flex-col  w-full">
               <motion.div layoutId={`image-${card.title}-${id}`}>
                 <img

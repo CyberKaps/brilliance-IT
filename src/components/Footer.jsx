@@ -16,7 +16,7 @@ export const Footer = () => {
           </div>
           <div className="mb-6">
             <h3 className="font-semibold text-white">Contact Number</h3>
-            <p className="text-sm text-gray-300">+91 8530761040</p>
+            <p className="text-sm text-gray-300">+91 8080068554</p>
           </div>
           <div className="flex gap-4 mt-4">
             <SocialIcon icon={<FaLinkedinIn />} />

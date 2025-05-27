@@ -10,11 +10,11 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-[#070F2B] shadow-sm fixed top-0 z-50">
       <div className="container mx-auto px- py-6 flex justify-between items-center ">
-        <div className="w-[100px]">
-            <img src="#" alt="" />
+        <div className='text-white text-2xl font-bold' >
+            Brilliance IT Solution
         </div>
 
-        <ul className="hidden md:flex gap-8 text-gray-500 font-sm">
+        <ul className="hidden md:flex gap-8 text-white font-sm">
           {navLinks.map((link) => (
             <li key={link}>
               <a href={`#${link.toLowerCase()}`} className="hover:text-blue-600 transition">
