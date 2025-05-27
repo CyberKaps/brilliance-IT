@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import { HeroParallaxDemo } from './components/HeroParallaxDemo'
+import { AnimatedTestimonialsDemo } from './components/AnimatedTestimonialsDemo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       </div>
       <Navbar />
       <HeroParallaxDemo />
+      <AnimatedTestimonialsDemo />
     </>
   )
 }
