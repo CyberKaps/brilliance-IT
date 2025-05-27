@@ -10,22 +10,29 @@ import { Footer } from './components/Footer'
 import AboutUs from './components/AboutUs'
 import WhyUs from './components/WhyUs'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+
+    useEffect(() => {
+    AOS.init({ duration: 1000 }) // animation duration in ms
+  }, [])
 
   return (
     <>
-      <div>
-        hi there
-      </div>
+  
       <Navbar />
       <HeroParallaxDemo />
-      <ExpandableCardDemo />
-      <AnimatedTestimonialsDemo />
-      <WhyUs />
-      <AboutUs />
+
+      <div data-aos="fade-up"><ExpandableCardDemo /></div>
+      <div data-aos="fade-right"><AnimatedTestimonialsDemo /></div>
+      <div data-aos="fade-up"><WhyUs /></div>
+      <div data-aos="fade-right"><AboutUs /></div>
 
       <Footer />
     
