@@ -200,7 +200,7 @@ const cards = [
     title: "Core Python",
     src: "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://wa.me/918080068554",
     content: () => {
       return (
         <p>Lana Del Rey, an iconic American singer-songwriter, is celebrated for
@@ -222,7 +222,7 @@ const cards = [
     title: "Web Development",
     src: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://wa.me/918080068554",
     content: () => {
       return (
         <p>Babu Maan, a legendary Punjabi singer, is renowned for his soulful
@@ -244,7 +244,7 @@ const cards = [
     title: "PHP development",
     src: "https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://wa.me/918080068554",
     content: () => {
       return (
         <p>Metallica, an iconic American heavy metal band, is renowned for their
@@ -265,7 +265,7 @@ const cards = [
     title: "Android Development",
     src: "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://wa.me/918080068554",
     content: () => {
       return (
         <p>Himesh Reshammiya, a renowned Indian music composer, singer, and
