@@ -5,6 +5,10 @@ import './App.css'
 import Navbar from './components/Navbar'
 import { HeroParallaxDemo } from './components/HeroParallaxDemo'
 import { AnimatedTestimonialsDemo } from './components/AnimatedTestimonialsDemo'
+import { ExpandableCardDemo } from './components/ExpandableCardDemo'
+import { Footer } from './components/Footer'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +20,12 @@ function App() {
       </div>
       <Navbar />
       <HeroParallaxDemo />
+      <ExpandableCardDemo />
+  
       <AnimatedTestimonialsDemo />
+
+      <Footer />
+    
     </>
   )
 }
