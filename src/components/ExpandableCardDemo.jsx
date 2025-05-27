@@ -196,8 +196,8 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Lana Del Rey",
-    title: "Core Python",
+    description: "Basic to Advance",
+    title: "C Programming",
     src: "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
     ctaLink: "https://wa.me/918080068554",
@@ -218,8 +218,8 @@ const cards = [
     },
   },
   {
-    description: "Babbu Maan",
-    title: "Web Development",
+    description: "OOPS and STL",
+    title: "C++ Programming",
     src: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
     ctaLink: "https://wa.me/918080068554",
@@ -240,8 +240,8 @@ const cards = [
   },
 
   {
-    description: "Metallica",
-    title: "PHP development",
+    description: "Core + Advance",
+    title: "Java Programming",
     src: "https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
     ctaLink: "https://wa.me/918080068554",
@@ -261,8 +261,50 @@ const cards = [
     },
   },
   {
-    description: "Lord Himesh",
-    title: "Android Development",
+    description: "With Real Projects",
+    title: "Python Programming",
+    src: "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ctaText: "Enquire Now",
+    ctaLink: "https://wa.me/918080068554",
+    content: () => {
+      return (
+        <p>Himesh Reshammiya, a renowned Indian music composer, singer, and
+                    actor, is celebrated for his distinctive voice and innovative
+                    compositions. Born in Mumbai, India, he has become a prominent figure
+                    in the Bollywood music industry. <br /> <br />His songs often feature
+                    a blend of contemporary and traditional Indian music, capturing the
+                    essence of modern Bollywood soundtracks. With a career spanning over
+                    two decades, Himesh Reshammiya has released numerous hit albums and
+                    singles that have garnered him a massive fan following both in India
+                    and abroad.
+                  </p>
+      );
+    },
+  },
+  {
+    description: "Core Java, Spring Boot, MySQL, Angular/React",
+    title: "Java Full Stack Development",
+    src: "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    ctaText: "Enquire Now",
+    ctaLink: "https://wa.me/918080068554",
+    content: () => {
+      return (
+        <p>Himesh Reshammiya, a renowned Indian music composer, singer, and
+                    actor, is celebrated for his distinctive voice and innovative
+                    compositions. Born in Mumbai, India, he has become a prominent figure
+                    in the Bollywood music industry. <br /> <br />His songs often feature
+                    a blend of contemporary and traditional Indian music, capturing the
+                    essence of modern Bollywood soundtracks. With a career spanning over
+                    two decades, Himesh Reshammiya has released numerous hit albums and
+                    singles that have garnered him a massive fan following both in India
+                    and abroad.
+                  </p>
+      );
+    },
+  },
+  {
+    description: "React,Node.js / Express.js, MongoDB",
+    title: "MERN Stack Development",
     src: "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ctaText: "Enquire Now",
     ctaLink: "https://wa.me/918080068554",
