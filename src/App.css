@@ -1,1 +1,10 @@
 @plugin "daisyui";
+
+.course-card:hover .course-text{
+  color: white;
+}
+
+.course-card:hover .course-text-disc{
+  color: gray;
+}
+

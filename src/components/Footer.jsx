@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaInstagram, FaFacebookF, FaXTwitter } from 'react-icons/
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#141414] text-white px-6 py-12">
+    <footer className="bg-[#070F2B] text-white px-6 py-12">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
  
         <div>

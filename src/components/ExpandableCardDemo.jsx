@@ -3,6 +3,7 @@
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useOutsideClick } from "../hooks/use-outside-click";
+import "../App.css"
 
 export function ExpandableCardDemo() {
   const [active, setActive] = useState(null);
@@ -30,7 +31,8 @@ export function ExpandableCardDemo() {
 
   return (
     <>
-      <AnimatePresence>
+    <div className="bg-[#9290C3]">    
+         <AnimatePresence>
         {active && typeof active === "object" && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -64,7 +66,7 @@ export function ExpandableCardDemo() {
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden">
+              className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-[#535C91] sm:rounded-3xl overflow-hidden">
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <img
                   width={200}
@@ -96,7 +98,7 @@ export function ExpandableCardDemo() {
                     exit={{ opacity: 0 }}
                     href={active.ctaLink}
                     target="_blank"
-                    className="px-4 py-3 text-sm rounded-full font-bold bg-green-500 text-white">
+                    className="px-4 py-3 text-sm rounded-full font-bold bg-[#070F2B] text-white">
                     {active.ctaText}
                   </motion.a>
                 </div>
@@ -117,17 +119,17 @@ export function ExpandableCardDemo() {
           </div>
         ) : null}
       </AnimatePresence>
-      <div className="mt-28 text-4xl text-center font-extrabold">
+      <div className="mt-28 pt-10 text-4xl text-center font-extrabold">
         <h1>Our Courses</h1>
       </div>
       <ul
-        className=" px-20 mx- mt-8 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items- gap-4">
+        className="bg-[#] px-20 mx- mt-8 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items- gap-4 pb-10 ">
         {cards.map((card, index) => (
           <motion.div
             layoutId={`card-${card.title}-${id}`}
             key={card.title}
             onClick={() => setActive(card)}
-            className="p-4 flex flex-col  hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-xl cursor-pointer">
+            className="p-4 flex flex-col  hover:bg-[#070F2B] course-card rounded-xl cursor-pointer">
             <div className="flex gap-4 flex-col  w-full">
               <motion.div layoutId={`image-${card.title}-${id}`}>
                 <img
@@ -140,12 +142,12 @@ export function ExpandableCardDemo() {
               <div className="flex justify-center items-center flex-col">
                 <motion.h3
                   layoutId={`title-${card.title}-${id}`}
-                  className="font-medium text-neutral-800 dark:text-neutral-200 text-center md:text-left text-base">
+                  className="font-medium text-black text-center md:text-left text-base course-text">
                   {card.title}
                 </motion.h3>
                 <motion.p
                   layoutId={`description-${card.description}-${id}`}
-                  className="text-neutral-600 dark:text-neutral-400 text-center md:text-left text-base">
+                  className="text-neutral-800 text-center md:text-left text-base course-text-disc">
                   {card.description}
                 </motion.p>
               </div>
@@ -153,6 +155,9 @@ export function ExpandableCardDemo() {
           </motion.div>
         ))}
       </ul>
+
+      </div>
+ 
     </>
   );
 }
@@ -194,7 +199,7 @@ const cards = [
     description: "Lana Del Rey",
     title: "Core Python",
     src: "https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    ctaText: "Visit",
+    ctaText: "Enquire Now",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -216,7 +221,7 @@ const cards = [
     description: "Babbu Maan",
     title: "Web Development",
     src: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    ctaText: "Visit",
+    ctaText: "Enquire Now",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -238,7 +243,7 @@ const cards = [
     description: "Metallica",
     title: "PHP development",
     src: "https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    ctaText: "Visit",
+    ctaText: "Enquire Now",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -259,7 +264,7 @@ const cards = [
     description: "Lord Himesh",
     title: "Android Development",
     src: "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    ctaText: "Visit",
+    ctaText: "Enquire Now",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (

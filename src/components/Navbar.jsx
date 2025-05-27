@@ -8,7 +8,7 @@ const Navbar = () => {
   const navLinks = ['HOME', 'COURSES', 'ABOUT', 'CONTACT'];
 
   return (
-    <nav className="w-full bg-white shadow-sm fixed top-0 z-50">
+    <nav className="w-full bg-[#070F2B] shadow-sm fixed top-0 z-50">
       <div className="container mx-auto px- py-6 flex justify-between items-center ">
         <div className="w-[100px]">
             <img src="#" alt="" />
