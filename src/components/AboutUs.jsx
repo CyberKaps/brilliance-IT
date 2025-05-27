@@ -15,7 +15,7 @@ const AboutUs = () => {
 
         {/* Right Side Text */}
         <div className="text-gray-800">
-          <h2 className="text-4xl font-bold mb-6 text-black">Who We Are</h2>
+          <h2 className="text-4xl font-bold mb-6 text-blue-700">Who We Are</h2>
           <p className="text-lg mb-4">
             At <span className="font-semibold text-">Brilliance IT Jalgaon</span>, we are a team of passionate developers and designers committed to crafting digital solutions that matter. Based in the heart of Maharashtra, we blend creativity with technology to empower local businesses and startups.
           </p>

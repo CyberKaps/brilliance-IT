@@ -31,7 +31,7 @@ export function ExpandableCardDemo() {
 
   return (
     <>
-    <div className="bg-[#9290C3]">    
+    <div className="bg-gray-100">    
          <AnimatePresence>
         {active && typeof active === "object" && (
           <motion.div
@@ -66,7 +66,7 @@ export function ExpandableCardDemo() {
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-[#535C91] sm:rounded-3xl overflow-hidden">
+              className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-[#070F2B] sm:rounded-3xl overflow-hidden">
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <img
                   width={200}
@@ -98,7 +98,7 @@ export function ExpandableCardDemo() {
                     exit={{ opacity: 0 }}
                     href={active.ctaLink}
                     target="_blank"
-                    className="px-4 py-3 text-sm rounded-full font-bold bg-[#070F2B] text-white">
+                    className="px-4 py-3 text-sm rounded-full font-bold bg-white text-black">
                     {active.ctaText}
                   </motion.a>
                 </div>
@@ -120,7 +120,7 @@ export function ExpandableCardDemo() {
         ) : null}
       </AnimatePresence>
       <div className="mt-28 pt-10 text-4xl text-center font-extrabold">
-        <h1>Our Courses</h1>
+        <h1 className="text-blue-700">Our Courses</h1>
       </div>
       <ul
         className="bg-[#] px-20 mx- mt-8 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items- gap-4 pb-10 ">

@@ -82,7 +82,7 @@ export const Footer = () => {
 };
 
 const SocialIcon = ({ icon }) => (
-  <div className="bg-[#1e1e1e] text-white w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/30 transition-colors duration-300 cursor-pointer">
+  <div className="bg-[#] text-white w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/30 transition-colors duration-300 cursor-pointer">
     {icon}
   </div>
 );
