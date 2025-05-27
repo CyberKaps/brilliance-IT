@@ -7,6 +7,7 @@ import { HeroParallaxDemo } from './components/HeroParallaxDemo'
 import { AnimatedTestimonialsDemo } from './components/AnimatedTestimonialsDemo'
 import { ExpandableCardDemo } from './components/ExpandableCardDemo'
 import { Footer } from './components/Footer'
+import AboutUs from './components/AboutUs'
 
 
 
@@ -21,8 +22,8 @@ function App() {
       <Navbar />
       <HeroParallaxDemo />
       <ExpandableCardDemo />
-  
       <AnimatedTestimonialsDemo />
+      <AboutUs />
 
       <Footer />
     
